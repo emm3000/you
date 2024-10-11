@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.github.emm3000"
-version = "1.0-SNAPSHOT"
+version = "2.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -16,7 +16,7 @@ dependencies {
 
 publishing {
     publications {
-        create<MavenPublication>("you") {
+        create<MavenPublication>("veronica") {
             from(components["java"])
         }
     }
